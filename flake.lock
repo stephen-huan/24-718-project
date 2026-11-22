@@ -1,0 +1,49 @@
+{
+  "nodes": {
+    "maipkgs": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1788151041,
+        "narHash": "sha256-FolSx/C0sdoWSd25okoOK4RQFjaZg73GVyjeMjW7Ov0=",
+        "owner": "stephen-huan",
+        "repo": "maipkgs",
+        "rev": "1afd6092e001a25bd99d34992ece84703e843fad",
+        "type": "github"
+      },
+      "original": {
+        "owner": "stephen-huan",
+        "repo": "maipkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1787736819,
+        "narHash": "sha256-cV5xEJJK3BvhU8rEd4mC9UsmDi5qscv/kzGPhBRC5WA=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "9fbb54b33e91ee4ca368e35a78e0613c720600b3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "maipkgs": "maipkgs",
+        "nixpkgs": [
+          "maipkgs",
+          "nixpkgs"
+        ]
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
